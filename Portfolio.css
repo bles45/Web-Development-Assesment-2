@@ -1,3 +1,4 @@
+/* Reset styles for all elements */
 *,
 *::before,
 *::after {
@@ -6,12 +7,14 @@
   box-sizing: border-box;
 }
 
+/* Body styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
+/* Background styles */
 #background {
   position: fixed;
   top: 0;
@@ -22,10 +25,12 @@ body {
   z-index: -1;
 }
 
+/* Header styles */
 #header {
   width: 100%;
 }
 
+/* Logo styles */
 .logo {
   position: fixed;
   top: 20px;
@@ -36,6 +41,7 @@ body {
   max-width: 550px;
 }
 
+/* Navigation styles */
 nav {
   position: fixed;
   top: 20px;
@@ -67,6 +73,7 @@ nav ul li a::after {
   bottom: -6px;
 }
 
+/* Header text styles */
 .header-text {
   margin-top: 110px;
   font-size: 30px;
@@ -74,6 +81,7 @@ nav ul li a::after {
   color: rgb(219, 127, 255);
 }
 
+/* Secondary header text styles */
 .header-text.secondary-text {
   margin-top: 20px;
 }
@@ -93,10 +101,11 @@ nav ul li a::after {
 
 .header-text.secondary-text h2 {
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 60px;
   color: rgb(219, 127, 255);
 }
 
+/* Bullet points styles */
 .bullet-points {
   margin-top: 20px;
   font-size: 20px;
@@ -105,12 +114,31 @@ nav ul li a::after {
   color: rgb(219, 127, 255);
 }
 
+.contact-info{
+  margin-top: 160px;
+  font-size: 20px;
+  list-style: disc;
+  margin-left: 40px;
+  color: rgb(219, 127, 255);
+}
+/* Subheader styles */
 .sub-header {
   font-size: 30px;
-  margin-top: 40px;
+  margin-top: 120px;
+  margin-left: 40px;
   color: rgb(219, 127, 255);
 }
 
+/* Contact styles */
+.contact-header {
+  font-size: 30px;
+  margin-top: 120px;
+  margin-left: 0px;
+  color: rgb(219, 127, 255);
+}
+
+
+/* Content styles */
 .content {
   margin-top: 100vh;
   padding: 20px;
@@ -120,6 +148,7 @@ nav ul li a::after {
   margin-bottom: 20px;
 }
 
+/* Gameplay image 1 styles */
 .gameplay-image1 {
   max-width: 300px;
   margin-top: 40px;
@@ -127,6 +156,7 @@ nav ul li a::after {
   height: auto;
 }
 
+/* Gameplay image 2 styles */
 .gameplay-image2 {
   max-width: 300px;
   margin-top: 40px;
@@ -134,17 +164,20 @@ nav ul li a::after {
   height: auto;
 }
 
+/* Image-video container styles */
 .image-video-container {
   display: flex;
   align-items: flex-start;
 }
 
+/* Gameplay video styles */
 .gameplay-video {
   max-width: 500px;
   margin-left: 20px;
   margin-top: 55px;
 }
 
+/* Sketch image 1 styles */
 .sketch-image1 {
   max-width: 350px;
   margin-top: 40px;
@@ -152,6 +185,7 @@ nav ul li a::after {
   height: auto;
 }
 
+/* Sketch image 2 styles */
 .sketch-image2 {
   max-width: 400px;
   margin-top: 40px;
@@ -159,12 +193,14 @@ nav ul li a::after {
   height: auto;
 }
 
+/* Gameplay screenshot styles */
 .gameplay-screenshot {
   max-width: 500px;
   margin-left: 20px;
   margin-top: 55px;
 }
 
+/* Background 1 styles */
 .bkg1{
   max-width: 350px;
   margin-top: 40px;
@@ -172,6 +208,7 @@ nav ul li a::after {
   height: auto;
 }
 
+/* Background 2 styles */
 .bkg2 {
   max-width: 400px;
   margin-top: 40px;
